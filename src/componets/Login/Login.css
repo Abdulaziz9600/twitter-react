@@ -1,0 +1,37 @@
+.twitter-logo {
+  width: 450px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left: 735px;
+  top: 222px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.twitter-pssword {
+  width: 450px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left: 735px;
+  top: 222px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.btn-Login {
+  font-family: 'Segoe UI' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 450px;
+  height: 60px;
+  left: 735px;
+  top: 412px;
+  background: #1DA1F2;
+  border-radius: 76px;
+}
