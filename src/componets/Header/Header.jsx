@@ -23,7 +23,7 @@ const Header = () => {
           </div>
           <nav className='pt-3 pb-5'>
             <ul className='twitter-list d-flex flex-column gap-5 pt-5 list-unstyled'>
-            <NavLink className={({isActive})=>  isActive ? "active text-decoration-none" : "text-decoration-none"} to='/'> <li className='d-flex gap-4 link-activ'> <img src={Home} alt="" />Home </li> </NavLink>
+            <NavLink className={({isActive})=>  isActive ? "active text-decoration-none" : "text-decoration-none"} to='/main'> <li className='d-flex gap-4 link-activ'> <img src={Home} alt="" />Home </li> </NavLink>
             <NavLink className={({isActive})=>  isActive ? "active text-decoration-none" : "text-decoration-none"} to='/Section'> <li className='d-flex gap-4'> <img src={Explore} alt="" /> Explore </li></NavLink>
               <li className='d-flex gap-4'> <img src={Notification} alt="" /> Notifications</li>
               <li className='d-flex gap-4'> <img src={Messages} alt="" /> Messages</li>
