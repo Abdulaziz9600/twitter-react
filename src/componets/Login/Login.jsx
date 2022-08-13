@@ -2,7 +2,7 @@ import React,{ useState} from 'react';
 import './Login.css'
 import Logo from '../../assets/twitter-logo.svg'
 
-const Login = ({uselogin,twlogin}) => {
+const Login = ({uselogin,login}) => {
 
   const [userName, setUsername] = useState("");
   const [password, setPassword] = useState("");

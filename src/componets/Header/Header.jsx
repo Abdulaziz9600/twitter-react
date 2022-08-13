@@ -19,7 +19,7 @@ const Header = () => {
 
           <div  className='d-flex align-items-center justify-content-between'>
             <img src={Logo} alt="" />
-           <NavLink to='/login'><button className='btn btn-primary '>log Out</button></NavLink> 
+           <NavLink to='/'><button className='btn btn-primary '>log Out</button></NavLink> 
           </div>
           <nav className='pt-3 pb-5'>
             <ul className='twitter-list d-flex flex-column gap-5 pt-5 list-unstyled'>

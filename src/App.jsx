@@ -21,12 +21,9 @@ function App() {
   const navigate = useNavigate()
   
   const uselogin = (params) => {
-    if((user.username === params.username && user.password === params.password)){
-      setlogin(true)
-    }
-
-  return   twlogin ?
-    navigate('/') : navigate('/login')
+   
+    return   (user.username === params.username && user.password === params.password) ? 
+    navigate('/main') : navigate('/')
     
   }
   
@@ -36,14 +33,14 @@ function App() {
       <div className=''>
         <div className='row'>
 
-          {(pathname === '/login') ? "" : <div className='col-3'><Header /></div>}
+          {(pathname === '/') ? "" : <div className='col-3'><Header /></div>}
 
           <Routes>
-            <Route path="/" element={<div className='col-6'><Main /></div>} />
+            <Route path="/main" element={<div className='col-6'><Main /></div>} />
             <Route path="/Section" element={<div className='col-6'><Section /></div>} />
-            <Route path='/login' element={<Login twlogin={twlogin} uselogin={uselogin}/>} />
+            <Route path='/' element={<Login login={twlogin} uselogin={uselogin}/>} />
           </Routes>
-          {(pathname === '/login') ? "" : <div className='col-3'><Footer /></div>}
+          {(pathname === '/') ? "" : <div className='col-3'><Footer /></div>}
 
         </div>
       </div>
